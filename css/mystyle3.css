@@ -1,0 +1,366 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color:rgb(98, 21, 187);
+}
+
+.title1 {
+  margin-bottom: 5%;
+  color:white;
+  text-align: center;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+
+.number {
+  float: left;
+  margin-top: 30px;
+  font-size: 35px;
+  margin-left: 25px;
+}
+
+.text1 {
+  width: 98%;
+  color: rgb(204, 204, 204);
+  background-color:rgba(46, 7, 71, 0.295);
+  padding-top: 10px;
+  padding-bottom: 8px;
+  border-radius:10px;
+  margin-bottom: 15px;
+margin-left: 5px;
+}
+
+.text01 {
+  text-align: left;
+
+    padding: 3% 10% 3% 15%;
+}
+
+
+.number2 {
+  float: left;
+  margin-top: 30px;
+  font-size: 35px;
+margin-left: 25px;
+}
+
+
+
+.text2 {
+  width: 98%;
+  color: rgb(204, 204, 204);
+  background-color:rgba(46, 7, 71, 0.295);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius:10px;
+  margin-bottom: 15px;
+
+}
+
+.text02 {
+  text-align: left;
+
+    padding: 3% 10% 3% 15%;
+}
+
+
+
+.textcols {
+  white-space: nowrap;
+}
+
+.column {
+  white-space: normal;
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+
+}
+
+/* Хлебные крошки */
+
+ul.breadcrumb {
+  list-style: none;
+  z-index: 2;
+
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 13px;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: rgb(224, 222, 222);
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: #f8f8f8;
+  text-decoration: underline;
+}
+
+
+
+/* Меню аккордеона */
+
+/* Аккордеон  */
+
+.icon {
+  z-index: 9;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  mix-blend-mode: multiply;
+  position: absolute;
+  margin-left: 23px;
+  margin-top: 12.5px;
+  
+}
+
+.icon:first-of-type {
+  margin-left: 19%;
+  margin-top: 12.5px;
+}
+
+
+.tabs {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.tabs>input[type="radio"] {
+  display: none;
+}
+
+.tabs>div {
+  display: none;
+  margin-left: 9%;
+}
+
+
+
+#tab-btn-1:checked~#content-1,
+#tab-btn-2:checked~#content-2,
+#tab-btn-3:checked~#content-3,
+#tab-btn-4:checked~#content-4,
+#tab-btn-5:checked~#content-5,
+#tab-btn-6:checked~#content-6 
+{
+  display: block;
+ 
+}
+
+.link_tabs {
+  color: white;
+  text-decoration: none;
+  
+}
+
+.link_tabs:hover {
+  text-decoration: underline;
+}
+
+.div_menu {
+  background-color:#dddedf;
+  width: 62.2%;
+  height: 7%;
+  margin-left: 18%;
+  border-radius:30px;
+  position: absolute;
+  z-index: -1;
+ 
+}
+
+.tabs>label {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding-left: 2px;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  border-radius: 20px;
+  transition: color 5s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 40px;
+  color: #0e0e0e;
+margin-left: 47px;
+}
+
+.tabs>label.active {
+  background-color: #fdfdfd;
+  z-index: 6;
+  box-shadow: 0 5px 20px rgba(12, 12, 12, 0.3);
+padding-left: 33px;
+padding-right: 12px;
+padding-top: 7px;
+padding-bottom: 8.2px;
+margin-top:0;
+margin-left: 13px;
+margin-right: -10px;
+margin-bottom: 28.2px;
+}
+
+
+
+.tabs>label.active:first-of-type {
+margin-left: 246px;
+padding-right: 15px;
+
+}
+
+.tabs>label.active:last-of-type {
+margin-left: 12px;
+}
+
+.tabs>label:first-of-type {
+margin-left: 21%;
+
+
+}
+
+
+.img01 {
+  width: 90%;
+  height: 100%;
+  border-radius: 10%;
+
+}
+
+.img02 {
+  width: 90%;
+  height: 100%;
+  border-radius: 10%;
+
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 15%;
+
+  padding-bottom: 10px;
+}
+
+.image-container1 {
+  position: relative;
+  display: inline-block;
+  width: 15%;
+
+  padding-bottom: 10px;
+}
+
+/* Стили для градиента */
+.gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(rgba(158, 56, 253, 0.781), rgba(117, 7, 150, 0.877));
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10%;
+  margin-left: 28%;
+  width: 96%;
+  height: 95%;
+}
+
+/* Стили для кнопки проигрывателя */
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  width: 40%;
+  height: 30%;
+  margin-left: 25%;
+  margin-bottom: 25%;
+}
+
+
+
+/* Стили для названия игры */
+.game-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: 50%;
+  margin-bottom: 10%;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Стили для наведения */
+.image-container:hover .gradient {
+  opacity: 1;
+}
+
+.image-container:hover .play-button {
+  opacity: 1;
+}
+
+.image-container:hover .game-title {
+  opacity: 1;
+}
+
+.image-container:hover .game-title1 {
+  opacity: 1;
+}
+
+
+
+.image-container1:hover .gradient {
+  opacity: 1;
+}
+
+.image-container1:hover .play-button {
+  opacity: 1;
+}
+
+.image-container1:hover .game-title {
+  opacity: 1;
+}
+
+.image-container1:hover .game-title1 {
+  opacity: 1;
+}
+
+
+.game-title1 {
+  position: absolute;
+  bottom: 0;
+  margin-left: 50%;
+  margin-bottom: 100%;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+
